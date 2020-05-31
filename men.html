@@ -1,0 +1,653 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Men</title>
+	<link rel="shortcut icon" type="image/jpg" href="img/heart1.jpg">
+	<link rel="stylesheet" type="text/css" href="online store.css">
+		<script type="text/javascript" src="online store.js"></script>
+
+</head>
+<body>
+	
+<div class="header">
+  Stay Home .. Stay Safe
+</div>
+	
+	<div class="topnav">
+<button onclick="document.getElementById('register').style.display='block'" class="register" style="overflow: hidden;">REGISTER</button>
+	
+	
+	<div id="register" class="bg">
+  
+  <form class="form" onSubmit="signup()">
+    <div class="container">
+      <h1 style="color:#2196f3">Sign Up</h1>
+      <p style="color:#2196f3">Please fill in this form.</p>
+      <hr>
+      <label><b>First Name</b></label>
+      <input type="text" placeholder="Enter Your First Name" name="fname" required>
+			 
+	  <label><b>Last Name</b></label>
+      <input type="text" placeholder="Enter Your Last Name" name="lname" required>
+	  
+	   <label><b>Email</b></label>
+      <input type="email" placeholder="Enter Email" name="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" title="the password must start with capital letter , at least one number and one special characters(-,_,&,*,#) and no white spaces" name="psw" pattern="(?=.*[A-Z])(?=.*\d)(?=.*[-,_,#,&,*])(?!.*\s)(?=.*[a-z]).{7}" required>
+
+     <label><b>Phone Number</b></label>
+      <input type="text" placeholder="Your Phone Number" name="psw" pattern="[0-9]{11}"  required>
+      
+	  <input type="radio" id="male" name="gender" style="margin-bottom:15px" value="male" required>
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" style="margin-bottom:15px" value="female" required>
+  <label for="female">Female</label><br>
+ 
+  
+
+      <div class="clear">
+        <button type="button" onclick="document.getElementById('register').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">REGISTER</button>
+      </div>
+    </div>
+  </form>
+</div>
+	<script src="online store.js"></script>
+
+	
+	<pre  style=" text-align: center;  overflow: hidden;max-width: 100%;  height: auto; width: auto\9; font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif' ; word-wrap: break-word;white-space: pre-line;"  >  NOURHAN   FASHION <img  src="img/heart1.jpg" alt="heart" ></pre>
+					
+	    <div  class="col-12 col-s-12" >       
+  <a  href="online store.html">HOME</a>
+
+	<div>
+ <div class="dropdown">
+     <button class="dropbtn"> <a href="women.html">WOMEN</a>
+		 </button>
+    <div class="dropdown-content">
+      <a href="women.html#clothes">CLOTHES</a>
+			<a href="women.html#accessories">ACCESSORIES</a>
+     
+	 </div>
+		 </div>
+	</div>
+	<a href="men.html">MEN</a>
+    <div class="dropdown">
+     <button class="dropbtn"> <a href="kids.html">KIDS</a>
+		 </button>
+    <div class="dropdown-content">
+      <a href="kids.html#girls">GIRLS</a>
+      <a href="kids.html#boys">BOYS</a>
+	 </div>
+		 </div>
+    <a href="how to style.html" style="float: right">HOW TO STYLE
+ </a>
+	<br>
+	</div>
+	</div> 
+	
+	
+	<div class="bla"></div>
+	<br>
+	<div class="smallnav" style="background-color:#21267D;">Men Clothes</div>
+	
+	<br>
+	<br>
+	<div class="row">
+  <div class="column">
+	  <div style="background-color: white;">
+    <a target="_blank" href="img\shirt1.png">
+		<img  class="col-12 col-s-12" src="img\shirt1.png"  alt="shirt" width="180"></a>
+	<p style="text-align: center; color:#434343; font-weight:bold;">
+		Green Shirt<br>
+		Pice: 20$
+		<br>
+		<button style="background-color:#21267D;" onclick="document.getElementById('buy21').style.display='block'" class="button" >Buy</button>
+		 </p>
+		<div id="buy21" class="bg"> 
+
+		<form class="form" onSubmit="order()">
+	<div class="container">
+		<h1> Payment Getway </h1>
+		<hr>
+		  <label><strong>Full Name:</strong></label>
+				<input type="text" placeholder="Your name" required>
+		
+				
+		  <label><strong>Email:</strong></label>
+				<input type="email" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+						
+		  <label><strong>Address:</strong></label>
+				<input type="text" placeholder="Your address" required>
+			
+			
+		  <label><strong>Phone Number:</strong></label>
+				<input type="tel" placeholder="01*********"  pattern="[0-9]{11}" required>
+			
+
+			<label><strong>Card Number:</strong></label>
+				<input type="text"  placeholder="0000 0000 0000 0000"  pattern="[[0-9]{4} *[0-9]{4} *[0-9]{4} *[0-9]{4}" required>
+			
+	   <div class="group">
+			
+                <label><strong>Expiry Date:</strong></label>
+			<input type="text" placeholder="00-00" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01])-(0[1-9]|1[012])" required >
+			
+		  
+		  <label><strong>CVC:</strong></label>
+				<input type="text" placeholder="000" pattern="[0-9]{3}" required >
+		
+			</div>
+			<div>
+				<button class="btn">Pay</button>
+				
+		</div>
+			
+		</div>
+    
+		   </form> 
+</div>
+		  <script src="online store.js"></script>
+	</div>
+		</div>
+	
+		
+	
+	<div class="column" >
+	<div style="background-color: white;">
+    <a target="_blank" href="img\shirt3.png" >
+		<img class="col-12 col-s-12" src="img\shirt3.png"  alt="tshirt" width="180"></a>
+	<p style="text-align: center; color:#434343;  font-weight:bold;">
+		B &amp; W T-shirt<br>
+		Pice: 18$
+		<br>
+<button style="background-color:#21267D;" onclick="document.getElementById('buy21').style.display='block'" class="button" >Buy</button>
+		 </p>
+		<div id="buy22" class="bg"> 
+
+		<form class="form" onSubmit="order()">
+	<div class="container">
+		<h1> Payment Getway </h1>
+		<hr>
+		  <label><strong>Full Name:</strong></label>
+				<input type="text" placeholder="Your name" required>
+		
+				
+		  <label><strong>Email:</strong></label>
+				<input type="email" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+						
+		  <label><strong>Address:</strong></label>
+				<input type="text" placeholder="Your address" required>
+			
+			
+		  <label><strong>Phone Number:</strong></label>
+				<input type="tel" placeholder="01*********"  pattern="[0-9]{11}" required>
+			
+
+			<label><strong>Card Number:</strong></label>
+				<input type="text"  placeholder="0000 0000 0000 0000"  pattern="[[0-9]{4} *[0-9]{4} *[0-9]{4} *[0-9]{4}" required>
+			
+	   <div class="group">
+			
+                <label><strong>Expiry Date:</strong></label>
+			<input type="text" placeholder="00-00" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01])-(0[1-9]|1[012])" required >
+			
+		  
+		  <label><strong>CVC:</strong></label>
+				<input type="text" placeholder="000" pattern="[0-9]{3}" required >
+		
+			</div>
+			<div>
+				<button class="btn">Pay</button>
+				
+		</div>
+			
+		</div>
+    
+		   </form> 
+</div>
+		  <script src="online store.js"></script>
+	</div>
+	</div>
+		
+		
+	 <div class="column">
+	<div style="background-color: white;">
+    <a target="_blank" href="img\shirt4.png"  >
+		<img class="col-12 col-s-12" src="img\shirt4.png"  alt="tshirt" width="180"></a>
+	<p style="text-align: center; color:#434343; font-weight:bold;">
+		White T-shirt<br>
+		Pice: 17$
+		<br>
+<button style="background-color:#21267D;" onclick="document.getElementById('buy21').style.display='block'" class="button" >Buy</button>
+		 </p>
+		<div id="buy23" class="bg"> 
+
+		<form class="form" onSubmit="order()">
+	<div class="container">
+		<h1> Payment Getway </h1>
+		<hr>
+		  <label><strong>Full Name:</strong></label>
+				<input type="text" placeholder="Your name" required>
+		
+				
+		  <label><strong>Email:</strong></label>
+				<input type="email" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+						
+		  <label><strong>Address:</strong></label>
+				<input type="text" placeholder="Your address" required>
+			
+			
+		  <label><strong>Phone Number:</strong></label>
+				<input type="tel" placeholder="01*********"  pattern="[0-9]{11}" required>
+			
+
+			<label><strong>Card Number:</strong></label>
+				<input type="text"  placeholder="0000 0000 0000 0000"  pattern="[[0-9]{4} *[0-9]{4} *[0-9]{4} *[0-9]{4}" required>
+			
+	   <div class="group">
+			
+                <label><strong>Expiry Date:</strong></label>
+			<input type="text" placeholder="00-00" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01])-(0[1-9]|1[012])" required >
+			
+		  
+		  <label><strong>CVC:</strong></label>
+				<input type="text" placeholder="000" pattern="[0-9]{3}" required >
+		
+			</div>
+			<div>
+				<button class="btn">Pay</button>
+				
+		</div>
+			
+		</div>
+    
+		   </form> 
+</div>
+		  <script src="online store.js"></script>
+	</div>
+	</div>
+	</div>
+	
+	
+	<div class="row">
+	<div class="column">
+	<div style="background-color: white;">
+    <a target="_blank" href="img\shirt5.png">
+		<img class="col-12 col-s-12" src="img\shirt5.png"  alt="tshirt" width="180"></a>
+		<p style="text-align: center; color:#434343; font-weight:bold;">
+		Grey T-shirt<br>
+		Pice: 19$
+		<br>
+<button style="background-color:#21267D;" onclick="document.getElementById('buy21').style.display='block'" class="button" >Buy</button>
+		 </p>
+		<div id="buy24" class="bg"> 
+
+		<form class="form" onSubmit="order()">
+	<div class="container">
+		<h1> Payment Getway </h1>
+		<hr>
+		  <label><strong>Full Name:</strong></label>
+				<input type="text" placeholder="Your name" required>
+		
+				
+		  <label><strong>Email:</strong></label>
+				<input type="email" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+						
+		  <label><strong>Address:</strong></label>
+				<input type="text" placeholder="Your address" required>
+			
+			
+		  <label><strong>Phone Number:</strong></label>
+				<input type="tel" placeholder="01*********"  pattern="[0-9]{11}" required>
+			
+
+			<label><strong>Card Number:</strong></label>
+				<input type="text"  placeholder="0000 0000 0000 0000"  pattern="[[0-9]{4} *[0-9]{4} *[0-9]{4} *[0-9]{4}" required>
+			
+	   <div class="group">
+			
+                <label><strong>Expiry Date:</strong></label>
+			<input type="text" placeholder="00-00" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01])-(0[1-9]|1[012])" required >
+			
+		  
+		  <label><strong>CVC:</strong></label>
+				<input type="text" placeholder="000" pattern="[0-9]{3}" required >
+		
+			</div>
+			<div>
+				<button class="btn">Pay</button>
+				
+		</div>
+			
+		</div>
+    
+		   </form> 
+</div>
+		  <script src="online store.js"></script>
+	</div>
+	</div>
+	
+	<div class="column"  >
+	<div style="background-color: white;">
+    <a target="_blank" href="img\shirt6.png">
+		<img class="col-12 col-s-12" src="img\shirt6.png"  alt="tshirt" width="180"></a>
+		<p style="text-align: center; color:#434343; font-weight:bold;">
+		Darkblue T-shirt<br>
+		Pice: 20$
+		<br>
+<button style="background-color:#21267D;" onclick="document.getElementById('buy21').style.display='block'" class="button" >Buy</button>
+		 </p>
+		<div id="buy25" class="bg"> 
+
+		<form class="form" onSubmit="order()">
+	<div class="container">
+		<h1> Payment Getway </h1>
+		<hr>
+		  <label><strong>Full Name:</strong></label>
+				<input type="text" placeholder="Your name" required>
+		
+				
+		  <label><strong>Email:</strong></label>
+				<input type="email" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+						
+		  <label><strong>Address:</strong></label>
+				<input type="text" placeholder="Your address" required>
+			
+			
+		  <label><strong>Phone Number:</strong></label>
+				<input type="tel" placeholder="01*********"  pattern="[0-9]{11}" required>
+			
+
+			<label><strong>Card Number:</strong></label>
+				<input type="text"  placeholder="0000 0000 0000 0000"  pattern="[[0-9]{4} *[0-9]{4} *[0-9]{4} *[0-9]{4}" required>
+			
+	   <div class="group">
+			
+                <label><strong>Expiry Date:</strong></label>
+			<input type="text" placeholder="00-00" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01])-(0[1-9]|1[012])" required >
+			
+		  
+		  <label><strong>CVC:</strong></label>
+				<input type="text" placeholder="000" pattern="[0-9]{3}" required >
+		
+			</div>
+			<div>
+				<button class="btn">Pay</button>
+				
+		</div>
+			
+		</div>
+    
+		   </form> 
+</div>
+		  <script src="online store.js"></script>
+	</div>
+	</div>
+	
+	
+	 <div class="column">
+	<div style="background-color: white;">
+    <a target="_blank" href="img\shirt7.png">
+		<img class="col-12 col-s-12" src="img\shirt7.png"  alt="shirt" width="180"></a>
+		<p style="text-align: center; color:#434343; font-weight:bold;">
+		Colorful Shirt<br>
+		Pice: 15$
+		<br>
+<button style="background-color:#21267D;" onclick="document.getElementById('buy21').style.display='block'" class="button" >Buy</button>
+		 </p>
+		<div id="buy26" class="bg"> 
+
+		<form class="form" onSubmit="order()">
+	<div class="container">
+		<h1> Payment Getway </h1>
+		<hr>
+		  <label><strong>Full Name:</strong></label>
+				<input type="text" placeholder="Your name" required>
+		
+				
+		  <label><strong>Email:</strong></label>
+				<input type="email" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+						
+		  <label><strong>Address:</strong></label>
+				<input type="text" placeholder="Your address" required>
+			
+			
+		  <label><strong>Phone Number:</strong></label>
+				<input type="tel" placeholder="01*********"  pattern="[0-9]{11}" required>
+			
+
+			<label><strong>Card Number:</strong></label>
+				<input type="text"  placeholder="0000 0000 0000 0000"  pattern="[[0-9]{4} *[0-9]{4} *[0-9]{4} *[0-9]{4}" required>
+			
+	   <div class="group">
+			
+                <label><strong>Expiry Date:</strong></label>
+			<input type="text" placeholder="00-00" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01])-(0[1-9]|1[012])" required >
+			
+		  
+		  <label><strong>CVC:</strong></label>
+				<input type="text" placeholder="000" pattern="[0-9]{3}" required >
+		
+			</div>
+			<div>
+				<button class="btn">Pay</button>
+				
+		</div>
+			
+		</div>
+    
+		   </form> 
+</div>
+		  <script src="online store.js"></script>
+	</div>
+	</div>
+	</div>
+	
+	
+	<div class="row">
+	 <div class="column"  >
+		<div style="background-color: white;">
+    <a target="_blank" href="img\pant3.png">
+		<img class="col-12 col-s-12" src="img\pant3.png"  alt="pant" width="180"></a>
+	<p style="text-align: center; color:#434343; font-weight:bold;">
+		Grey Pants<br>
+		Pice: 22$
+		<br>
+<button style="background-color:#21267D;" onclick="document.getElementById('buy21').style.display='block'" class="button" >Buy</button>
+		 </p>
+		<div id="buy27" class="bg"> 
+
+		<form class="form" onSubmit="order()">
+	<div class="container">
+		<h1> Payment Getway </h1>
+		<hr>
+		  <label><strong>Full Name:</strong></label>
+				<input type="text" placeholder="Your name" required>
+		
+				
+		  <label><strong>Email:</strong></label>
+				<input type="email" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+						
+		  <label><strong>Address:</strong></label>
+				<input type="text" placeholder="Your address" required>
+			
+			
+		  <label><strong>Phone Number:</strong></label>
+				<input type="tel" placeholder="01*********"  pattern="[0-9]{11}" required>
+			
+
+			<label><strong>Card Number:</strong></label>
+				<input type="text"  placeholder="0000 0000 0000 0000"  pattern="[[0-9]{4} *[0-9]{4} *[0-9]{4} *[0-9]{4}" required>
+			
+	   <div class="group">
+			
+                <label><strong>Expiry Date:</strong></label>
+			<input type="text" placeholder="00-00" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01])-(0[1-9]|1[012])" required >
+			
+		  
+		  <label><strong>CVC:</strong></label>
+				<input type="text" placeholder="000" pattern="[0-9]{3}" required >
+		
+			</div>
+			<div>
+				<button class="btn">Pay</button>
+				
+		</div>
+			
+		</div>
+    
+		   </form> 
+</div>
+		  <script src="online store.js"></script>
+	</div>
+		</div>
+		
+		
+	<div class="column"  >		
+	<div style="background-color: white;">
+    <a target="_blank" href="img\pant1.png">
+		<img class="col-12 col-s-12" src="img\pant1.png"  alt="pant" width="180"></a>
+		<p style="text-align: center; color:#434343;  font-weight:bold;">
+		Black Pants<br>
+		Pice: 22$
+		<br>
+<button style="background-color:#21267D;" onclick="document.getElementById('buy21').style.display='block'" class="button" >Buy</button>
+		 </p>
+		<div id="buy28" class="bg"> 
+
+		<form class="form" onSubmit="order()">
+	<div class="container">
+		<h1> Payment Getway </h1>
+		<hr>
+		  <label><strong>Full Name:</strong></label>
+				<input type="text" placeholder="Your name" required>
+		
+				
+		  <label><strong>Email:</strong></label>
+				<input type="email" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+						
+		  <label><strong>Address:</strong></label>
+				<input type="text" placeholder="Your address" required>
+			
+			
+		  <label><strong>Phone Number:</strong></label>
+				<input type="tel" placeholder="01*********"  pattern="[0-9]{11}" required>
+			
+
+			<label><strong>Card Number:</strong></label>
+				<input type="text"  placeholder="0000 0000 0000 0000"  pattern="[[0-9]{4} *[0-9]{4} *[0-9]{4} *[0-9]{4}" required>
+			
+	   <div class="group">
+			
+                <label><strong>Expiry Date:</strong></label>
+			<input type="text" placeholder="00-00" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01])-(0[1-9]|1[012])" required >
+			
+		  
+		  <label><strong>CVC:</strong></label>
+				<input type="text" placeholder="000" pattern="[0-9]{3}" required >
+		
+			</div>
+			<div>
+				<button class="btn">Pay</button>
+				
+		</div>
+			
+		</div>
+    
+		   </form> 
+</div>
+		  <script src="online store.js"></script>
+	</div>
+		</div>
+	
+	<div class="column" >
+		<div style="background-color: white;">
+    <a target="_blank" href="img\pant2.png">
+		<img class="col-12 col-s-12" src="img\pant2.png"  alt="pant" width="180"></a>
+		<p style="text-align: center; color:#434343; font-weight:bold;">
+		Grey Short<br>
+		Pice: 18$
+		<br>
+<button style="background-color:#21267D;" onclick="document.getElementById('buy21').style.display='block'" class="button" >Buy</button>
+		 </p>
+		<div id="buy29" class="bg"> 
+
+		<form class="form" onSubmit="order()">
+	<div class="container">
+		<h1> Payment Getway </h1>
+		<hr>
+		  <label><strong>Full Name:</strong></label>
+				<input type="text" placeholder="Your name" required>
+		
+				
+		  <label><strong>Email:</strong></label>
+				<input type="email" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+						
+		  <label><strong>Address:</strong></label>
+				<input type="text" placeholder="Your address" required>
+			
+			
+		  <label><strong>Phone Number:</strong></label>
+				<input type="tel" placeholder="01*********"  pattern="[0-9]{11}" required>
+			
+
+			<label><strong>Card Number:</strong></label>
+				<input type="text"  placeholder="0000 0000 0000 0000"  pattern="[[0-9]{4} *[0-9]{4} *[0-9]{4} *[0-9]{4}" required>
+			
+	   <div class="group">
+			
+                <label><strong>Expiry Date:</strong></label>
+			<input type="text" placeholder="00-00" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01])-(0[1-9]|1[012])" required >
+			
+		  
+		  <label><strong>CVC:</strong></label>
+				<input type="text" placeholder="000" pattern="[0-9]{3}" required >
+		
+			</div>
+			<div>
+				<button class="btn">Pay</button>
+				
+		</div>
+			
+		</div>
+    
+		   </form> 
+</div>
+		  <script src="online store.js"></script>
+	</div>
+		</div>
+	</div>
+
+	
+	<br>
+	<br>
+		<div class="bottom">
+ <pre style="font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif' ;  letter-spacing: 8px" >FIND US ON</pre> 
+  	<a href="http://www.facebook.com" target="_blank"><img style="max-width: 150%;  height: auto; width: auto\9;"  class="col-12 col-s-12" src="img/facebook.png" alt="facebook" ></a>
+	<a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="instagram"></a>
+  	<a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
+		
+     <br>       
+	 <br>
+		
+		<form onSubmit="subscribe()">
+				<input style=" text-align: center; overflow: hidden;" type="email" class="input" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required >
+
+				<button style=" text-align: center; padding: 5px; overflow: hidden;" class="btn">Subscribe</button>
+					
+	          </form>  
+		<script src="online store.js"></script>
+
+		<br><br>
+	</div>
+		
+	<div class="downnav">
+		<h4>@2020 all right reseved</h4>
+    </div>
+	
+	
+
+</body>
+</html>
